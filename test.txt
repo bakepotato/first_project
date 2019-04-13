@@ -1,3 +1,0 @@
-This is Test Text File.
-hello git !!!
-git start
