@@ -9,7 +9,7 @@ on:
 
 jobs:
   print-hello-world:
-    runs-on: ubunth-latest
+    runs-on: ubuntu-latest
     steps:
       - name: execute echo command
         run: echo "hello world!!!"
