@@ -11,5 +11,6 @@ jobs:
   print-hello-world:
     runs-on: ubuntu-18.04
     steps:
+      - uses: actions/checkout@v2
       - name: execute echo command
-        run: echo "hello world!!!"
+        run: sh ./.github/test.sh
